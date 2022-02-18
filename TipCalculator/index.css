@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.overall{
+    background-color: #c5e4e7;
+    height: 100vh;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.calc{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 740px;
+    height: 330px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-family: 'Space Mono';
+}
+
+.calcpart{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    gap: 8px;
+}
+
+.text-image{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 4px;
+    width: 277px;
+    height: 30px;
+    background-color: #f3f8fb;
+
+}
+
+.dollar{
+    display: flex;
+    width: 13px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.caixa{ 
+    background-color: #f3f8fb;
+    border: none;
+    text-align: right;
+    padding-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botoes{
+    display: flex;
+    gap: 11px;
+    padding: 6px;
+    padding-left: 0;
+    font-family: 'Space Mono';
+}
+
+.botao{
+    color: white;
+    background-color: #00474b;
+    border-radius: 4px;
+    border: none;
+    width: 84px;
+    height: 36px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background: #26c2ad;
+}
+
+#custom{
+    background-color: #f4f8fb;
+    color: #00474b;
+}
+
+.resultpart{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #00474b;
+    width: 370px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css"> 
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="overall">
+        <div class="img"><img src="./images/logo.svg"></div>
+        <div class="calc">
+            <div class="calcpart">
+                <p>Bill</p>
+                <label class="text-image">
+                    <input type="image" src="./images/icon-dollar.svg" class="dollar"> 
+                    <input type="text" placeholder="0" class="caixa">
+                </label>
+                <p>Select tip %</p>
+                <table >
+                    <tr class="botoes">
+                        <td><button class="botao">5%</button></td>
+                        <td><button class="botao">10%</button></td>
+                        <td><button class="botao">15%</button></td>
+                    </tr>
+                    <tr class="botoes">
+                        <td><button class="botao">25%</button></td>
+                        <td><button class="botao">50%</button></td>
+                        <td><input type="text" placeholder="Custom" class="botao" id="custom"></button></td>
+                    </tr>
+                </table>
+                <p>Number of People</p>
+                <label class="text-image">
+                    <input type="image" src="./images/icon-person.svg" class="dollar"> 
+                    <input type="text" placeholder="0" class="caixa">
+                </label>
+            </div>
+            <div class="resultpart">
+                <p>Tip Amount</p>
+                <p>/ person</p>
+                <p>Total</p>
+                <p>/ person</p>
+                <button>Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
